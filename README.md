@@ -107,6 +107,9 @@ Shows `trip_id`, `driver_id`, `distance_km`, `fare_amount`, `predicted_fare`, an
 
 ![Task 4 Output](images/task4_output.png)
 
+**Result Explanation:**
+The model predicts fare based on `distance_km`. For example, a trip of 23.48 km has an actual fare of 114.64 but predicted fare of 92.37, giving a deviation of 22.26. Another trip of 48.32 km has an actual fare of 25.96 but predicted fare of 86.27, giving a deviation of 60.31 which is indicating a potential fare anomaly.
+
 ---
 
 ## **Task 5: Time-Based Fare Trend Prediction**
@@ -124,6 +127,9 @@ Shows `window_start`, `window_end`, `avg_fare`, and `predicted_next_avg_fare` ev
 
 ![Task 5 Output 2](images/task5_output_screenshot2.png)
 ![Task 5 Output](images/task5_output_screenshot1.png)
+
+**Result Explanation:**
+For the window 14:21-14:26, the actual avg fare was 78.71 and the model predicted 92.39 for the next window. A second window 14:22-14:27 shows avg fare of 73.03 with the same prediction of 92.39 which is showing the fare trend for that time period.
 
 ---
 
