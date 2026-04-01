@@ -41,9 +41,13 @@ Handson-L10-Spark-Streaming-MachineLearning-MLlib/
 ├── models/
 │   ├── fare_model/           → Saved LinearRegression model for Task 4
 │   └── fare_trend_model_v2/  → Saved LinearRegression model for Task 5
-├── checkpoints/
-│   ├── task4/
-│   └── task5/
+├── outputs/
+│   ├── task_4/               → CSV output files for Task 4
+│   └── task_5/               → CSV output files for Task 5
+├── images/
+│   ├── task4_output.png      → Task 4 console output screenshot
+│   ├── task5_output_screenshot1.png → Task 5 output screenshot 1
+│   └── task5_output_screenshot2.png → Task 5 output screenshot 2
 ├── data_generator.py         → Streams live ride-sharing data via socket
 ├── training-dataset.csv      → Static dataset for offline model training
 ├── task4.py                  → Real-Time Fare Prediction
