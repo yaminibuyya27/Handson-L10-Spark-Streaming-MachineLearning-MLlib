@@ -1,0 +1,2 @@
+trip_id,driver_id,distance_km,fare_amount,predicted_fare,deviation
+655de718-4169-47f6-a4fd-e8abaf1da349,9,31.79,22.18,90.33502429431456,68.15502429431456
