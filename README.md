@@ -122,8 +122,8 @@ Shows `window_start`, `window_end`, `avg_fare`, and `predicted_next_avg_fare` ev
 
 ### Task 5 Output Screenshot:
 
-![Task 5 Output](images/task5_output_screenshot1.png)
 ![Task 5 Output 2](images/task5_output_screenshot2.png)
+![Task 5 Output](images/task5_output_screenshot1.png)
 
 ---
 
